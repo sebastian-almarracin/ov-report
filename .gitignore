@@ -1,0 +1,61 @@
+ 
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+._*
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+.sonar/
+
+#Allow NuGet.exe (do not ignore)
+packages/
+*.nupkg
+!NuGet.exe
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Allow ReSharper .DotSettings (for non-namespace-provider properties)
+!*.csproj.DotSettings
+
+#Test files
+*.testsettings
+.vs/config/applicationhost.config
+
+#Drivers
+!chromedriver.exe
+!IEDriverServer.exe
+Publish/
+.vs/ 
