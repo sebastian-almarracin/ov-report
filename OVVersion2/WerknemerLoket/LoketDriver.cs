@@ -15,7 +15,7 @@ namespace OVVersion2.WerknemerLoket
     {
         private const string Username = "";
         private const string Password = "";
-        private static readonly string _downloadDir = @"D:\projectsSeb\ovProjectv2\downloads";
+        private static readonly string _downloadDir = @"downloadDir";
 
         private Declaration Declaration { get; set; }
 
